@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' sans-serif;
+    background-color: #e5e5e5;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.cabecalho__logo__alura{
+    width: 10%;
+    margin: 10px;
+    padding-top: 10px;
+    
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 70%;
+}
+
+.btCopy{
+    display: flex;
+    align-items: center;
+}
+
+.areaTexto{
+    border: none;
+    color: #0A3871;
+    margin-top: 0px;
+    text-transform: lowercase;
+    height: 300px;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.areaTexto:focus{
+    outline: none;
+}
+
+.msgCode{
+    width: 400px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#msg__texto{
+    background:  white;
+    background-image: url(/img/figura-procurando-texto.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 38px;
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+    height: 60%;
+}
+
+.msg:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 250px;
+}
+
+.btnDescript{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    margin-top: 202px;
+    
+}
+
+.btnEncript{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-top: 202px;
+}
+
+.btnCopy{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: auto;
+    margin-top: 202px;
+    position: absolute;
+    width: 336px;
+}
+
+h6{
+    width: 252px;
+    font-size: 15px;
+    
+}
+
+#msg__traducao{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    position: relative;
+    margin-top: 93px;
+    padding: 0;
+}
+
+#nenhumaMsg{
+    font-size: 24px;
+    font-style: bold;
+    width: 336px;
+    line-height: 120%;
+    color: #343A40;
+}
+
+.digiteTexto{
+    font-size: 16px;
+}
+
+.informacao{
+    margin-top: 0px;
+    padding: 0;
+}
+
+
+footer{
+    width: 100vw;
+    justify-content: center;
+    display: flex;    
+}

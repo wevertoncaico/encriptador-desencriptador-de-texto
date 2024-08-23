@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo__alura" src="./img/logo-alura.png" alt="logo da alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="areaTexto" cols="38" rows="4" placeholder="Digite seu texto aqui"></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento</h6>
+            </div>
+            <div class="botoes">
+                <button class="btnEncript" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btnDescript" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="msgCode">
+            <textarea  id="msg__texto" cols="30" rows="10"></textarea>
+            <div id="msg__traducao" >
+                <p id="nenhumaMsg" >Nenhuma mensagem encontrada</p>
+                <p class="digiteTexto" >Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <div class="btCopy">
+                <button class="btnCopy" onclick="copiarMensagem()">Copiar</button>
+            </div>
+                              
+        </section>
+    </main>
+
+    <footer>Desenvolvido por Weverton Soares</footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
