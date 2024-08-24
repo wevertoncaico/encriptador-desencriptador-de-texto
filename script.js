@@ -1,14 +1,6 @@
 const textArea = document.querySelector(".areaTexto");
 const mensagem = document.querySelector("#msg__texto");
 
-// As "chaves" de criptografia que utilizaremos são:
-// A letra "e" é convertida para "enter"
-// A letra "i" é convertida para "imes"
-// A letra "a" é convertida para "ai"
-// A letra "o" é convertida para "ober"
-// A letra "u" é convertida para "ufat"
-
-
 function btnEncriptar()
 {
     limparImagem();
@@ -72,7 +64,7 @@ function copiarMensagem(){
     mensagem.value = '';
     textArea.value = textoCopiado;
     mudarMensagem("p","Nenhuma mensagem encontrada");
-    mensagem.style.backgroundImage = "url(/img/figura-procurando-texto.svg)";
+    mensagem.style.backgroundImage = "url(/img/figura-procurando-texto.png)";
 }
 
 function mudarMensagem(tag, texto){
